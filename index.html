@@ -7,7 +7,7 @@
   <meta name="description" content="Demonstração da Pintura Idealle. Pintura de interiores e exteriores, preparação de superfícies e acabamentos.">
   <meta name="theme-color" content="#142D50">
   <title>Pintura Idealle — Pinturas e acabamentos</title>
-  <link rel="icon" href="./assets/marca/pintura-idealle.jpeg" type="image/jpeg">
+  <link rel="icon" href="./pintura-idealle.jpeg" type="image/jpeg">
   <link rel="stylesheet" href="./styles.css">
   <script src="./main.js" defer></script>
 </head>
@@ -16,7 +16,7 @@
   <header class="site-header" id="inicio">
     <div class="header-inner">
       <a class="brand" href="#inicio">
-        <img src="./assets/marca/pintura-idealle.jpeg" alt="" width="51" height="51">
+        <img src="./pintura-idealle.jpeg" alt="" width="51" height="51">
         <span><small>Pintura</small><strong>Idealle</strong></span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navegacao" hidden>
@@ -43,12 +43,12 @@
         </div>
       </div>
       <figure class="hero-media">
-        <video id="abertura" class="hero-video" src="./assets/video/abertura.mp4" muted loop playsinline controls preload="auto" aria-label="Excerto do resultado da pintura de uma fachada cinzenta"></video>
+        <video id="abertura" class="hero-video" src="./abertura.mp4" autoplay muted loop playsinline controls preload="auto" aria-label="Excerto do resultado da pintura de uma fachada cinzenta"></video>
         <div class="hero-loading" aria-hidden="true"><i></i></div>
         <figcaption class="hero-caption">
           <div class="hero-credit">
             <span class="eyebrow light">Pintura exterior</span>
-            <a class="film-link" href="./assets/video/fachada-cinzenta.mp4">Ver vídeo completo <span aria-hidden="true">↗</span></a>
+            <a class="film-link" href="./fachada-cinzenta.mp4">Ver vídeo completo <span aria-hidden="true">↗</span></a>
           </div>
           <button class="hero-control" type="button" aria-controls="abertura" aria-label="Reproduzir vídeo de abertura" title="Reproduzir vídeo de abertura" hidden><span class="play-icon" aria-hidden="true"></span></button>
         </figcaption>
@@ -92,28 +92,28 @@
         <article class="project" data-reveal aria-labelledby="madeira-titulo">
           <div class="project-screen wood" data-player>
             <span class="screen-tag" aria-hidden="true"><span></span> Em execução</span>
-            <video id="madeira-video" controls playsinline preload="none" src="./assets/video/acabamento-madeira.mp4" aria-labelledby="madeira-titulo"></video>
+            <video id="madeira-video" controls playsinline preload="none" src="./acabamento-madeira.mp4" aria-labelledby="madeira-titulo"></video>
             <button class="project-play" type="button" aria-controls="madeira-video" aria-label="Reproduzir vídeo do acabamento em madeira" hidden><span class="play-icon" aria-hidden="true"></span><span>Reproduzir</span></button>
           </div>
           <div class="project-caption">
             <p class="eyebrow">Acabamentos / 00:25</p>
             <h3 id="madeira-titulo">Acabamento em madeira</h3>
             <p>Aplicação do acabamento em painéis de madeira, vista de perto.</p>
-            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/acabamento-madeira.mp4">Abrir o ficheiro de vídeo</a>.</p>
+            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./acabamento-madeira.mp4">Abrir o ficheiro de vídeo</a>.</p>
           </div>
         </article>
 
         <section class="project" id="antes-depois" data-reveal aria-labelledby="antes-titulo">
           <div class="project-screen facade" data-player>
             <span class="screen-tag" aria-hidden="true"><span></span> Antes e depois</span>
-            <video id="antes-video" controls playsinline preload="none" src="./assets/video/antes-e-depois.mp4" aria-labelledby="antes-titulo"></video>
+            <video id="antes-video" controls playsinline preload="none" src="./antes-e-depois.mp4" aria-labelledby="antes-titulo"></video>
             <button class="project-play" type="button" aria-controls="antes-video" aria-label="Reproduzir vídeo do antes e depois da fachada" hidden><span class="play-icon" aria-hidden="true"></span><span>Reproduzir</span></button>
           </div>
           <div class="project-caption">
             <p class="eyebrow">Pintura exterior / 01:03</p>
             <h3 id="antes-titulo">A diferença está no resultado.</h3>
             <p>Da aplicação da cor coral aos remates em branco, veja como mudou a fachada.</p>
-            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/antes-e-depois.mp4">Abrir o ficheiro de vídeo</a>.</p>
+            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./antes-e-depois.mp4">Abrir o ficheiro de vídeo</a>.</p>
           </div>
         </section>
       </div>
@@ -148,7 +148,7 @@
       <form method="dialog"><button class="film-close" type="submit" autofocus>Fechar <span aria-hidden="true">×</span></button></form>
     </div>
     <video controls playsinline preload="none" aria-labelledby="filme-titulo"></video>
-    <p class="dialog-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/fachada-cinzenta.mp4">Abrir o ficheiro de vídeo</a>.</p>
+    <p class="dialog-error" role="status" hidden>O vídeo não carregou. <a href="./fachada-cinzenta.mp4">Abrir o ficheiro de vídeo</a>.</p>
   </dialog>
 </body>
 </html>

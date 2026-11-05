@@ -56,6 +56,7 @@ function syncHero() {
   }
 }
 
+if (reducedMotion.matches) hero.autoplay = false;
 hero.controls = false;
 hero.muted = true;
 heroButton.hidden = false;
