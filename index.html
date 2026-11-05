@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Demonstração da Pintura Idealle. Pintura de interiores e exteriores, preparação de superfícies e acabamentos.">
+  <meta name="theme-color" content="#142D50">
+  <title>Pintura Idealle — Pinturas e acabamentos</title>
+  <link rel="icon" href="./assets/marca/pintura-idealle.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio">
+        <img src="./assets/marca/pintura-idealle.jpeg" alt="" width="51" height="51">
+        <span><small>Pintura</small><strong>Idealle</strong></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navegacao" hidden>
+        <span>Menu</span><span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="nav" id="navegacao" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a class="header-contact" href="#contactos">Contactos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="hero-copy">
+        <p class="eyebrow light"><span></span> Pinturas e acabamentos</p>
+        <h1 id="hero-titulo">Damos nova<br>vida aos seus<br><em>espaços.</em></h1>
+        <p class="hero-summary">Pintura e acabamentos com atenção a cada detalhe.</p>
+        <div class="actions">
+          <a class="button button-yellow" href="#contactos">Pedir orçamento <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#trabalhos">Ver trabalhos <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <video id="abertura" class="hero-video" src="./assets/video/abertura.mp4" muted loop playsinline controls preload="auto" aria-label="Excerto do resultado da pintura de uma fachada cinzenta"></video>
+        <div class="hero-loading" aria-hidden="true"><i></i></div>
+        <figcaption class="hero-caption">
+          <div class="hero-credit">
+            <span class="eyebrow light">Pintura exterior</span>
+            <a class="film-link" href="./assets/video/fachada-cinzenta.mp4">Ver vídeo completo <span aria-hidden="true">↗</span></a>
+          </div>
+          <button class="hero-control" type="button" aria-controls="abertura" aria-label="Reproduzir vídeo de abertura" title="Reproduzir vídeo de abertura" hidden><span class="play-icon" aria-hidden="true"></span></button>
+        </figcaption>
+        <p class="hero-error" role="status" hidden>O excerto não carregou. Pode abrir o vídeo completo abaixo.</p>
+      </figure>
+    </section>
+
+    <section class="about shell" id="sobre" aria-labelledby="sobre-titulo">
+      <p class="eyebrow section-index"><span></span> 01 / Sobre a Idealle</p>
+      <div class="about-grid" data-reveal>
+        <h2 id="sobre-titulo">Mais do que pintar.<br><em>Transformar.</em></h2>
+        <p>A Pintura Idealle dedica-se à pintura e aos acabamentos de interiores e exteriores. Da preparação das superfícies aos últimos retoques, o cuidado vê-se nas transições de cor, nos recortes e na uniformidade do acabamento.</p>
+      </div>
+    </section>
+
+    <section class="services" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="shell services-grid">
+        <div class="services-heading" data-reveal>
+          <p class="eyebrow section-index"><span></span> 02 / Serviços</p>
+          <h2 id="servicos-titulo">Cada espaço merece o melhor <em>acabamento.</em></h2>
+        </div>
+        <ol class="service-list" data-reveal>
+          <li><span class="service-number" aria-hidden="true">01</span><div><h3>Pintura de interiores</h3><p>Cor e uniformidade para paredes e tetos.</p></div></li>
+          <li><span class="service-number" aria-hidden="true">02</span><div><h3>Pintura de exteriores</h3><p>Renovação da pintura de fachadas e outras superfícies exteriores.</p></div></li>
+          <li><span class="service-number" aria-hidden="true">03</span><div><h3>Preparação de superfícies</h3><p>Lixagem e correção de irregularidades antes da pintura.</p></div></li>
+          <li><span class="service-number" aria-hidden="true">04</span><div><h3>Acabamentos</h3><p>Recortes, remates e tratamento de superfícies em madeira.</p></div></li>
+          <li><span class="service-number" aria-hidden="true">05</span><div><h3>Renovação visual</h3><p>Uma nova leitura do espaço através da cor e dos acabamentos.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="work shell" id="trabalhos" aria-labelledby="trabalhos-titulo">
+      <div class="work-heading" data-reveal>
+        <div>
+          <p class="eyebrow section-index"><span></span> 03 / Trabalhos realizados</p>
+          <h2 id="trabalhos-titulo">Resultados que <em>falam por si.</em></h2>
+        </div>
+        <p>Veja de perto a aplicação do acabamento em madeira e a transformação de uma fachada.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project" data-reveal aria-labelledby="madeira-titulo">
+          <div class="project-screen wood" data-player>
+            <span class="screen-tag" aria-hidden="true"><span></span> Em execução</span>
+            <video id="madeira-video" controls playsinline preload="none" src="./assets/video/acabamento-madeira.mp4" aria-labelledby="madeira-titulo"></video>
+            <button class="project-play" type="button" aria-controls="madeira-video" aria-label="Reproduzir vídeo do acabamento em madeira" hidden><span class="play-icon" aria-hidden="true"></span><span>Reproduzir</span></button>
+          </div>
+          <div class="project-caption">
+            <p class="eyebrow">Acabamentos / 00:25</p>
+            <h3 id="madeira-titulo">Acabamento em madeira</h3>
+            <p>Aplicação do acabamento em painéis de madeira, vista de perto.</p>
+            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/acabamento-madeira.mp4">Abrir o ficheiro de vídeo</a>.</p>
+          </div>
+        </article>
+
+        <section class="project" id="antes-depois" data-reveal aria-labelledby="antes-titulo">
+          <div class="project-screen facade" data-player>
+            <span class="screen-tag" aria-hidden="true"><span></span> Antes e depois</span>
+            <video id="antes-video" controls playsinline preload="none" src="./assets/video/antes-e-depois.mp4" aria-labelledby="antes-titulo"></video>
+            <button class="project-play" type="button" aria-controls="antes-video" aria-label="Reproduzir vídeo do antes e depois da fachada" hidden><span class="play-icon" aria-hidden="true"></span><span>Reproduzir</span></button>
+          </div>
+          <div class="project-caption">
+            <p class="eyebrow">Pintura exterior / 01:03</p>
+            <h3 id="antes-titulo">A diferença está no resultado.</h3>
+            <p>Da aplicação da cor coral aos remates em branco, veja como mudou a fachada.</p>
+            <p class="player-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/antes-e-depois.mp4">Abrir o ficheiro de vídeo</a>.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact" id="contactos" aria-labelledby="contactos-titulo">
+      <div class="shell contact-grid">
+        <div data-reveal>
+          <p class="eyebrow light"><span></span> 04 / Contactos</p>
+          <h2 id="contactos-titulo">Pronto para transformar o seu <em>espaço?</em></h2>
+        </div>
+        <div class="contact-actions" data-reveal>
+          <p>Entre em contacto e peça o seu orçamento.</p>
+          <a class="button button-yellow" href="https://wa.me/351912062914?text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Pedir orçamento pelo WhatsApp <span aria-hidden="true">↗</span></a>
+          <a class="instagram" href="https://www.instagram.com/pintura_idealle/" target="_blank" rel="noopener noreferrer">@pintura_idealle <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span class="footer-name">Pintura Idealle</span>
+      <span class="demo-note"><span></span> Demonstração não oficial</span>
+      <a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <dialog class="film-dialog" aria-labelledby="filme-titulo">
+    <div class="film-header">
+      <h2 id="filme-titulo">Pintura da fachada cinzenta</h2>
+      <form method="dialog"><button class="film-close" type="submit" autofocus>Fechar <span aria-hidden="true">×</span></button></form>
+    </div>
+    <video controls playsinline preload="none" aria-labelledby="filme-titulo"></video>
+    <p class="dialog-error" role="status" hidden>O vídeo não carregou. <a href="./assets/video/fachada-cinzenta.mp4">Abrir o ficheiro de vídeo</a>.</p>
+  </dialog>
+</body>
+</html>
+
+
